@@ -1,0 +1,23 @@
+.section {
+  padding: 1rem;
+  height: 100vh;
+  justify-content: center;
+  &Item {
+    height: 100%;
+    width: 90%;
+    .imageContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100%;
+      .image {
+        max-height: 80%;
+        max-width: 90%;
+      }
+      .imageText {
+        padding: 0.5rem;
+      }
+    }
+  }
+}
